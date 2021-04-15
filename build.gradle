@@ -148,8 +148,8 @@ publishing {
             name = "GitHubPackages"
             url = "https://maven.pkg.github.com/rohilsurana/maven"
             credentials {
-                username = System.getenv("GITHUB_ACTOR")
-                password = System.getenv("GITHUB_TOKEN")
+                username = System.getenv("MAVEN_USER")
+                password = System.getenv("MAVEN_PASSWORD")
             }
         }
     }
